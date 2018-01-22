@@ -421,7 +421,8 @@ Misc Content
 
 @media (max-width: 767px) {
 
-  .primary-navigation {
+  .primary-navigation,
+  .primary-navigation--tools {
     display: none !important;
   }
 

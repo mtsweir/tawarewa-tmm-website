@@ -16,13 +16,6 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/Archive.zip": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/Archive.zip",
-		"oF": 0
-		},
 	"\/css\/bootstrap.css": {
 		"aP": 1,
 		"bl": 0,
@@ -167,6 +160,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/tawarewa-www-tmm.sublime-workspace",
+		"oF": 0
+		},
+	"\/tmm-html-demo.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/tmm-html-demo.zip",
 		"oF": 0
 		}
 	},
