@@ -36,24 +36,14 @@
 		"oF": 1,
 		"oS": 3
 		},
-	"\/css\/pushy-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/pushy-min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/css\/pushy.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/css\/pushy-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"\/css\/style.css": {
