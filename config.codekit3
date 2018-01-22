@@ -63,6 +63,13 @@
 		"oF": 1,
 		"oS": 3
 		},
+	"\/economic-updates.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/economic-updates.html",
+		"oF": 0
+		},
 	"\/fonts\/tmm_font.eot": {
 		"cB": 0,
 		"ft": 8192,
@@ -140,6 +147,13 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"\/news.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/news.html",
+		"oF": 0
 		},
 	"\/tawarewa-www-tmm.sublime-project": {
 		"cB": 0,
