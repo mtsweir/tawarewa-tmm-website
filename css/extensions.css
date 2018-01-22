@@ -1,0 +1,522 @@
+
+
+/*
+
+TMM CSS Contents
+
+Site Header
+- Logo
+- Main Navigation
+- Sub Navigation
+- Ad Section
+
+Mobile Navigation
+- Search
+- Sub Sections
+
+Components
+- Buttons
+- CSS Shapes
+
+Responsive
+
+Misc Content
+
+*/
+
+
+/* Site Header
+=========================================================== */
+
+.site-header {
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 1px solid #eceeef;
+}
+
+.site-header--mobile {
+  background-color: #fff;
+}
+
+.site-header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-header {
+  display: table;
+  height: 100%;
+  width: 100%;
+  min-height: 60px;
+  max-width: 100%;
+}
+
+.main-header .logo-wrapper {
+  display: table-cell;
+  width: 1%;
+  vertical-align: middle;
+}
+
+/* Site Header - Logo */
+
+.logo {
+  margin-right: 1em;
+  width: 90px;
+  float: left;
+}
+
+.logo a,
+.logo span {
+  display: block;
+}
+
+.logo img[src$=".svg"] {
+  display: block;
+  height: auto;
+}
+
+/* Site Header - Main Navigation */
+
+.nav-menu {
+  margin-bottom: 0;
+  padding-left: 0;
+  height: 100%;
+  font-family: Open Sans;
+  list-style: none;
+}
+
+.menu-item {
+  display: inline-block;
+  height: 100%;
+}
+
+.menu-item a {
+  position: relative;
+  color: #424643;
+  display: block;
+  height: 100%;
+  min-height: 60px;
+  padding: 20px 0.5em 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.menu-item > a:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0.75em;
+  right: 0.75em;
+  height: 0;
+  background-color: #f11848;
+  -webkit-transition: height 0.1s;
+  -moz-transition: height 0.1s;
+  -o-transition: height 0.1s;
+  transition: height 0.1s;
+}
+
+.menu-item.selected > a:after,
+.menu-item >a:hover:after,
+.menu-item >a:focus:after {
+  height: 4px;
+}
+
+.primary-navigation {
+  display: table-cell;
+  height: 100%;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.primary-navigation--tools {
+  display: table-cell;
+  height: 100%;
+  text-align: right;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.primary-navigation--mobile {
+  display: table-cell;
+  width: 1%;
+  height: 100%;
+  padding-left: 0.75em;
+  text-align: right;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.primary-navigation--tools > span {
+  display: inline-block;
+  margin-top: 1.4em;
+}
+
+.primary-navigation--tools .icon:before {
+  color: #adadad;
+}
+
+.primary-navigation--tools .menu-item:last-child a {
+  padding-right: 0;
+}
+
+.icon--has-text {
+  white-space: nowrap;
+}
+
+.icon--has-text span {
+  margin-left: 0.25em;
+}
+
+/* Site Header - Sub Navigation */
+
+.sub-nav {
+  position: relative;
+  font-family: Open Sans;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #fff;
+  border-bottom: 1px solid #eceeef;
+}
+
+.sub-nav ul {
+  margin: 0;
+  padding: 0;
+  overflow-x: auto;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.sub-nav li {
+  display: inline-block;
+  margin: 0;
+  padding: 0 0.625em;
+  line-height: 24px;
+}
+
+.sub-nav li:first-child {
+  padding-left: 20px;
+}
+
+.sub-nav li:last-child {
+  padding-right: 20px;
+}
+
+.sub-nav li a {
+  position: relative;
+  display: block;
+  padding: 0.75em 0;
+  color: #424643;
+  font-weight: 300;
+  box-sizing: border-box;
+}
+
+.sub-nav li a:hover {
+  color: #f11848;
+}
+
+.sub-nav li.selected a:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  content: "";
+  background-color: #f11848;
+}
+
+/* Site Header - Ad Section */
+
+.header-ad {
+  margin-bottom: 40px;
+  padding: 12px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7f7f7;
+}
+
+
+/* Mobile Navigation
+=========================================================== */
+
+.nav-menu--mobile {
+  margin-bottom: 0;
+  padding: 0 20px 20px;
+  font-size: 18px;
+  list-style: none;
+}
+
+.nav-menu--mobile > li {
+  border-bottom: 1px solid #4a4a4a;
+}
+
+.nav-menu--mobile > li:last-child {
+  border-bottom: none;
+}
+
+.nav-menu--mobile a {
+  display: block;
+  padding: 1rem 0;
+  color: #fff;
+  font-weight: 700;
+}
+
+.nav-menu--mobile li li a {
+  padding: 0.5rem;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.nav-menu--mobile li li:last-child {
+  margin-bottom: 1rem;
+}
+
+.nav-menu--mobile .icon {
+  margin-right: 8px;
+  color: #ACACAC;
+}
+
+.nav-menu--mobile .icon-mail {
+  font-size: 13px;
+}
+
+/* Mobile Navigation - Search */
+
+.nav-mobile-search {
+  position: relative;
+  padding: 20px;
+  background-color: #000;
+}
+
+.nav-mobile-search .site-search {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 20px;
+}
+
+.nav-mobile-search .icon--input-overlay {
+  position: absolute;
+  top: 29px;
+  right: 40px;
+  opacity: 0.4;
+}
+
+/* Mobile Navigation - Sub Sections */
+
+.nav-menu--mobile-section {
+  margin-top: -20px;
+  padding: 30px 20px 20px;
+  border-top: 1px solid #4a4a4a;
+}
+
+.menu-section-title {
+  margin-bottom: 1rem;
+  color: #fff;
+  font-size: 16px;
+  clear: both;
+}
+
+.nav-menu--mobile-section ul {
+  margin-bottom: 2rem;
+  padding: 0 0 0.5rem;
+  border-bottom: 1px solid #4a4a4a;
+  -webkit-column-gap: 1rem;
+     -moz-column-gap: 1rem;
+          column-gap: 1rem;
+  -webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2;
+}
+
+.nav-menu--mobile-section ul::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nav-menu--mobile-section li {
+  margin: 0 0 0.75em 0;
+  -webkit-column-break-inside: avoid;
+     -moz-column-break-inside: avoid;
+      -ms-column-break-inside: avoid;
+       -o-column-break-inside: avoid;
+}
+
+.nav-menu--mobile-section a {
+  color: #B1B1B1;
+  font-size: 16px;
+}
+
+
+/* Components
+=========================================================== */
+
+/* Components - Buttons */
+
+.main-header .btn-toggle {
+  margin-right: -10px;
+}
+
+/* Components - CSS Shapes */
+
+.btn-shape {
+  position: relative;
+  padding: 10px;
+  background-color: transparent;
+  border: 0;
+}
+
+.btn-shape:focus {
+  outline: none;
+}
+
+.btn-shape div {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.btn-shape .menu-line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 2px;
+  width: 20px;
+  background-color: #adadad;
+}
+
+/* CSS Shape - Menu (Hamburger) */
+
+.btn-shape--menu .menu-line:nth-last-of-type(1) {
+  top: 2px;
+}
+
+.btn-shape--menu .menu-line:nth-last-of-type(2) {
+  top: 9px;
+}
+
+.btn-shape--menu .menu-line:nth-last-of-type(3) {
+  top: 16px;
+}
+
+/* CSS Shape - Close (X) */
+
+.btn-shape--close .menu-line:nth-last-of-type(1) {
+  top: 9px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.btn-shape--close .menu-line:nth-last-of-type(2) {
+  top: 9px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+
+/* Responsive
+=========================================================== */
+
+@media (max-width: 767px) {
+
+  .primary-navigation {
+    display: none !important;
+  }
+
+  .primary-navigation--tools .icon:before {
+    font-size: 20px;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .btn-mobile-toggle,
+  .primary-navigation--mobile {
+    display: none !important;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  
+  .logo {
+    width: 100px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  .main-header {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1160px;
+  }
+
+  .logo {
+    width: 120px;
+  }
+
+  .menu-item a {
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+  }
+
+}
+
+
+/* Misc Content
+=========================================================== */
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+p.error {
+  color: red;
+}
+
+div.searchForm input[type='text'] {
+  width: 50%;  
+  margin: 1% 0;
+}
+
+iframe.video {
+  margin: 0 0 2% 0;
+  width: 100%;
+  height: 410px;
+}
+
+div.mortgageRatesTable form {
+  box-sizing: content-box;  
+}
+div.mortgageRatesTable form p {
+  padding: 0.8% !important;
+  margin: 0 0 0 0 !important;
+  height: 1.5em !important;
+}
+
+.footer h4 a {
+  color: #fff;
+}
+
+div.sponsored h6 {
+  font-size: 0.8em;
+  font-weight: normal;
+  margin-bottom: 1.6em;
+}
+
+
+/* Resources
+=========================================================== */
+
+/*
+
+Autohide placeholder text on inputs when focused
+https://stackoverflow.com/questions/9707021/how-do-i-auto-hide-placeholder-text-upon-focus-using-css-or-jquery
+
+*/

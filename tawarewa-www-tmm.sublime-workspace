@@ -1,0 +1,373 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wid",
+				"width"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"over",
+				"overflow-wrap"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "pack",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 457.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/maxweir/Documents/_Clients/Tawarewa/projects/TMM website/code"
+	],
+	"file_history":
+	[
+		"/Users/maxweir/Documents/_Clients/Tawarewa/projects/Interest Rates website/code/.gitignore",
+		"/Users/maxweir/Documents/_Clients/Tawarewa/projects/Interest Rates website/code/README.md",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/public/tag/questions.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/public/account/qa.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcwww/public_html/interactions-check.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/public/tag/join.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/public/tag/members.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/public/tag/news.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/public/tag/overview.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/public/index.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/public/post/display.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/public/question.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/public/tag/index.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/public/account/tags.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/public/account/stats.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/public/account/profile.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/public/account/network.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/public/account/edit.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/public/account/edit-privacy.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/public/community.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/public/account/edit-email.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/public/header.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/public/admin/header.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/.gitignore",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/account/edit.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/account/edit-email.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/account/edit-privacy.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/post/ask.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/post/reply.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/index.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/post/display.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/tag/overview.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/account/network.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/account/qa.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/account/stats.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/account/tags.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/admin/post-pending.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/admin/post-search.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/library/inc/profile-header.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/library/inc/notification-wall.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/library/inc/tag-layout.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/tag/questions.php",
+		"/Users/maxweir/Desktop/happiness.html",
+		"/Users/maxweir/Downloads/interactions-message/Drug Interaction Report - Drugs.com.html",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/library/php/helper/PageHelper.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/library/css/site.css",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcwww/public_html/css/ddc-base.css",
+		"/Users/maxweir/Downloads/interactions-message/Drug Interaction Report - Drugs.com_files/ddc-base.css",
+		"/Users/maxweir/Desktop/zindex.css",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/library/js/module/popup.js",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/question.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcwww/public_html/account/register.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcwww/public_html/account/login-forgot.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcwww/public_html/account/login.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcwww/public_html/account/subscription.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcwww/public_html/newsletters/register.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcwww/public_html/pages/apps_support.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcwww/public_html/support/submit.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcwww/public_html/account/login-reset.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcwww/public_html/members_comments_add.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcwww/public_html/support/contact.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcwww/public_html/css/ddc-site.css",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcwww/public_html/include/class/careguide.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcwww/node_modules/tiny-lr/examples/express/styles/site.css",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcwww/public_html/interactions-save.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcwww/public_html/search-wildcard-phonetic.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcwww/public_html/interactions-list-drugs.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcwww/public_html/mednotes-add-drug-detail.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcwww/public_html/headline-news-item.php",
+		"/Users/maxweir/Documents/_Clients/Drugs.com/vagrant/ddc-vagrant/Vagrantfile",
+		"/Users/maxweir/Downloads/woolbliss.co.uk (1)/2f74bbda6a5eb11a.crt",
+		"/Users/maxweir/Downloads/woolbliss.co.uk (1)/gd_bundle-g2-g1.crt",
+		"/Users/maxweir/Downloads/woolbliss.co.uk/1222b04e04459081.crt",
+		"/Users/maxweir/Downloads/woolbliss.co.uk/gd_bundle-g2-g1.crt",
+		"/Users/maxweir/Desktop/index.html",
+		"/Users/maxweir/Desktop/stye.css",
+		"/Users/maxweir/Library/Application Support/Sublime Text 3/Packages/User/Emmet.sublime-settings"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 110.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "tawarewa-www-tmm.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ques",
+				"public/tag/questions.php"
+			],
+			[
+				"edit-email.php",
+				"public/account/edit-email.php"
+			],
+			[
+				"header",
+				"public/header.php"
+			],
+			[
+				"edit.php",
+				"account/edit.php"
+			],
+			[
+				"edit",
+				"account/edit.php"
+			],
+			[
+				"email",
+				"account/edit-email.php"
+			],
+			[
+				"privacy",
+				"account/edit-privacy.php"
+			],
+			[
+				"ask",
+				"post/ask.php"
+			],
+			[
+				"ask.",
+				"post/ask.php"
+			],
+			[
+				"site.css",
+				"library/css/site.css"
+			],
+			[
+				"answers.cs",
+				"public_html/css/ddc-section-answers.css"
+			],
+			[
+				"mednotes.css",
+				"public_html/mednotes/css/mednotes.css"
+			],
+			[
+				"ie7.css",
+				"public_html/css/ddc-ie7.css"
+			],
+			[
+				"ie8.css",
+				"public_html/css/ddc-ie8.css"
+			],
+			[
+				"base.c",
+				"public_html/css/ddc-base.css"
+			],
+			[
+				"contac",
+				"public_html/support/contact.php"
+			],
+			[
+				"submit",
+				"public_html/support/submit.php"
+			],
+			[
+				"base.cs",
+				"public_html/css/ddc-base.css"
+			],
+			[
+				"reg",
+				"public_html/account/register.php"
+			],
+			[
+				"site.c",
+				"public_html/css/ddc-site.css"
+			],
+			[
+				"base.css",
+				"public_html/css/ddc-base.css"
+			],
+			[
+				"interactions-list",
+				"public_html/interactions-list-drugs.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 203.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
