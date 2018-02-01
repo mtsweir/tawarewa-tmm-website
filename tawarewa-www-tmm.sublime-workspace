@@ -4,6 +4,70 @@
 		"selected_items":
 		[
 			[
+				"se",
+				"selected"
+			],
+			[
+				"pos",
+				"pos-r\tposition: relative;"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"pr",
+				"pos-r\tposition: relative;"
+			],
+			[
+				"va",
+				"va-m\tvertical-align: middle;"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"icon",
+				"icon-search"
+			],
+			[
+				"w",
+				"w\twidth"
+			],
+			[
+				"fons",
+				"font-size"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"po",
+				"pos-r\tposition: relative;"
+			],
+			[
+				"lis",
+				"lis-n\tlist-style: none;"
+			],
+			[
 				"wid",
 				"width"
 			],
@@ -80,6 +144,12 @@
 	],
 	"file_history":
 	[
+		"/Users/maxweir/Documents/_Clients/Tawarewa/projects/TMM website/code/.gitignore",
+		"/Users/maxweir/Documents/_Clients/Tawarewa/projects/TMM website/code/economic-updates.html",
+		"/Users/maxweir/Documents/_Clients/Tawarewa/projects/TMM website/code/css/pushy.css",
+		"/Users/maxweir/Documents/_Clients/Tawarewa/projects/TMM website/code/css/style.css",
+		"/Users/maxweir/Documents/_Clients/Tawarewa/projects/TMM website/code/css/extensions.css",
+		"/Users/maxweir/Documents/_Clients/Tawarewa/projects/TMM website/code/css/bootstrap.css",
 		"/Users/maxweir/Documents/_Clients/Tawarewa/projects/Interest Rates website/code/.gitignore",
 		"/Users/maxweir/Documents/_Clients/Tawarewa/projects/Interest Rates website/code/README.md",
 		"/Users/maxweir/Documents/_Clients/Drugs.com/ddcanswers/public/tag/questions.php",
@@ -160,13 +230,14 @@
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 41.0
 	},
 	"find_in_files":
 	{
 		"height": 158.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -174,6 +245,14 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			".primary-navigation--tools",
+			"nav-menu--mobile",
+			"with-",
+			"Toni",
+			"pushy-content",
+			"nav-menu--mobile",
+			".btn-toggle",
+			".pushy-left"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -202,7 +281,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"layout":
 	{
