@@ -1,3 +1,9 @@
+
+#
+## Gitignore File
+#
+
+
 # Compiled source #
 ###################
 *.com
@@ -6,6 +12,7 @@
 *.exe
 *.o
 *.so
+
 
 # Packages #
 ############
@@ -20,14 +27,17 @@
 *.tar
 *.zip
 
-# Logs and databases #
-######################
+
+## Logs and databases
+#####################
+
 *.log
 *.sql
 *.sqlite
 
-# OS generated files #
-######################
+
+## OS generated files
+#####################
 .DS_Store
 .DS_Store?
 ._*
@@ -37,11 +47,20 @@ Icon?
 ehthumbs.db
 Thumbs.db
 
-# Sublime Text files
-*.sublime-project
-*.sublime-workspace
-.sublime-gulp.cache
+
+## Ignore Sublime text stuff
+############################
+
+# cache files for sublime text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-gulp.cache
 sublime-gulp.log
+
+
+## Ignore Sass files
+####################
 
 # Sass Cache remove
 .sass-cache
@@ -49,7 +68,10 @@ sublime-gulp.log
 # Ignore CSS & Map File
 *.map
 
-# Ignore any build folders
+
+## Ignore any build folders
+###########################
+
 dist
 node_modules
 bower_components
