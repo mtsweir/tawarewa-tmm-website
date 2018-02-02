@@ -7,7 +7,7 @@
 		"uuidString": "3E76AEBA-B828-46C9-85EB-9FD2590B527B"
 		}
 	],
-"creatorBuild": "26148",
+"creatorBuild": "26261",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -749,6 +749,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,

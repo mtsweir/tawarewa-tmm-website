@@ -91,6 +91,23 @@
 	},
 	"buffers":
 	[
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 864,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tawarewa-www-tmm.sublime-project",
+			"settings":
+			{
+				"buffer_size": 45,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -270,8 +287,65 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 864,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								661,
+								661
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Seti_UI/icons/Langs/Git.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 933.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "tawarewa-www-tmm.sublime-project",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								45,
+								45
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -444,7 +518,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 203.0,
+	"side_bar_width": 183.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
