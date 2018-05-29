@@ -7,7 +7,7 @@
 		"uuidString": "3E76AEBA-B828-46C9-85EB-9FD2590B527B"
 		}
 	],
-"creatorBuild": "26268",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -178,7 +178,8 @@
 	"creationDate": 538188924,
 	"displayValue": "Tawarewa - TMM website",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-krieger"
+	"iconImageName": "meme-krieger",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1981,6 +1982,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
