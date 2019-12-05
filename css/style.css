@@ -1371,3 +1371,104 @@ table.table-bordered td:last-child {
   font-size: 1rem;
   font-weight: normal;
 }
+
+
+
+
+
+
+.newsletter-block {
+	margin: 1.5rem 0;
+}
+
+.signup-message {
+	color: #747474;
+}
+
+.newsletter-container {
+  margin-bottom: 1.5rem; }
+
+.newsletter-container-title {
+  margin: 0;
+  padding: 1.25rem 1.5rem;
+  /* color: #fff; */
+  font-size: 1.25rem;
+  /* text-transform: uppercase;
+	background-color: #555; */
+}
+
+.newsletter-list {
+  margin: 0;
+  padding: 1.5rem 0; }
+
+.newsletter-item {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  position: relative;
+  list-style: none;
+  border-bottom: 1px solid #dfe3e6;
+  user-select: none; }
+  .newsletter-item:last-of-type {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0; }
+
+.newsletter-tagline {
+  margin-bottom: 0.25rem;
+  color: #5a6872;
+  font-size: 0.875rem;
+  letter-spacing: 0.025rem;
+  text-transform: uppercase; }
+
+.newsletter-title {
+  margin-top: 0;
+  margin-bottom: 0.625rem;
+  font-size: 1.25rem;
+  font-weight: 600; }
+
+.newsletter-summary {
+  margin-bottom: 0; }
+
+@media (min-width: 768px) {
+  .newsletter-container {
+    border: 3px solid #000; }
+  .newsletter-list {
+    padding: 1.5rem; }
+  .newsletter-subscribe {
+    padding: 1.5rem;
+		border: 1px solid #dfe3e6; } }
+
+
+
+.styled-checkbox {
+  position: absolute;
+  opacity: 0; }
+  .styled-checkbox + label {
+    position: relative;
+    cursor: pointer;
+    margin: 0;
+    padding-left: 4rem; }
+  .styled-checkbox + label:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 2.25rem;
+    height: 2.25rem;
+    border: 1px solid #3151b5;
+    background: #fff; }
+  .styled-checkbox:hover + label:before {
+    background: #f4f7fb; }
+  .styled-checkbox:checked + label:before {
+    background: #f4f7fb; }
+  .styled-checkbox:checked + label:after {
+    content: '';
+    position: absolute;
+    left: 12px;
+    top: 16px;
+    background: #3151b5;
+    width: 2px;
+    height: 2px;
+    box-shadow: 2px 0 0 #3151b5, 4px 0 0 #3151b5, 4px -2px 0 #3151b5, 4px -4px 0 #3151b5, 4px -6px 0 #3151b5, 4px -8px 0 #3151b5;
+		transform: rotate(45deg); }
